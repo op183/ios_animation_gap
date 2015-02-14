@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="331" y="-312"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Second Table View Controller-->
         <scene sceneID="9yq-kC-54X">
             <objects>
-                <tableViewController id="E1a-f4-QtC" sceneMemberID="viewController">
+                <tableViewController id="E1a-f4-QtC" customClass="SecondTableViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6wr-UZ-6Gw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

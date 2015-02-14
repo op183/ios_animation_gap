@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D1EF6701A8FBC3000483D72 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1EF66F1A8FBC3000483D72 /* FirstTableViewController.swift */; };
+		2D1EF6721A8FC60C00483D72 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1EF6711A8FC60C00483D72 /* SecondTableViewController.swift */; };
 		4D222C0A1A8CC3480017419C /* NavControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D222C091A8CC3480017419C /* NavControllerViewController.swift */; };
 		4D970FDF1A8CB4C00088E1B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D970FDE1A8CB4C00088E1B5 /* AppDelegate.swift */; };
 		4D970FE41A8CB4C00088E1B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D970FE21A8CB4C00088E1B5 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2D1EF66F1A8FBC3000483D72 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		2D1EF6711A8FC60C00483D72 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		4D222C091A8CC3480017419C /* NavControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavControllerViewController.swift; sourceTree = "<group>"; };
 		4D970FD91A8CB4C00088E1B5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D970FDD1A8CB4C00088E1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				4D970FDC1A8CB4C00088E1B5 /* Supporting Files */,
 				4D222C091A8CC3480017419C /* NavControllerViewController.swift */,
 				2D1EF66F1A8FBC3000483D72 /* FirstTableViewController.swift */,
+				2D1EF6711A8FC60C00483D72 /* SecondTableViewController.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D970FDF1A8CB4C00088E1B5 /* AppDelegate.swift in Sources */,
+				2D1EF6721A8FC60C00483D72 /* SecondTableViewController.swift in Sources */,
 				4D222C0A1A8CC3480017419C /* NavControllerViewController.swift in Sources */,
 				2D1EF6701A8FBC3000483D72 /* FirstTableViewController.swift in Sources */,
 			);

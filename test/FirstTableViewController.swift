@@ -20,4 +20,10 @@ class FirstTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         performSegueWithIdentifier("test", sender: nil)
     }
+    
+    // Fix searchbar disappear bug
+    
+    func searchDisplayControllerDidEndSearch(controller: UISearchDisplayController) {
+        self.tableView.insertSubview(self.searchDisplayController!.searchBar, aboveSubview: self.tableView)
+    }
 }
